@@ -1,0 +1,29 @@
+module
+
+import C2RiemannianMinimal
+
+open scoped ContDiff
+
+#check C2Riemannian.theorem_A
+#check C2Riemannian.exists_c2_torus_metric_not_locally_c11_isometrically_immersible
+#check C2Riemannian.exists_c2_torus_metric_not_c11_isometrically_immersible
+#check C2Riemannian.exists_c2_torus_metric_not_c2_isometrically_immersible
+#check C2Riemannian.exists_c2_torus_metric_not_isometrically_embeddable
+#synth CompactSpace C2Riemannian.TorusDiskGeometry.FlatTorus
+#print C2Riemannian.C2TorusMetric
+#print C2Riemannian.C2TorusMetric.HasIsometricDifferential
+#print C2Riemannian.C2TorusMetric.HasLocalC11IsometricImmersion
+#print C2Riemannian.C2TorusMetric.IsC11IsometricImmersion
+#print C2Riemannian.C2TorusMetric.IsC2IsometricImmersion
+#print C2Riemannian.C2TorusMetric.IsC2IsometricEmbedding
+#print C2Riemannian.TorusDiskGeometry.HasLocalWeakTorusIsometry
+#print C2Riemannian.TorusDiskGeometry.IsGlobalC2TorusIsometry
+#print C2Riemannian.WeakJet2
+#print C2Riemannian.WeakJet2.LocallyBoundedOnCompacts
+#print C2Riemannian.WeakJet2.IsometryInChart
+#check C2Riemannian.tensorHS_eq_sqrt_sum
+#print axioms C2Riemannian.theorem_A
+#print axioms C2Riemannian.exists_c2_torus_metric_not_locally_c11_isometrically_immersible
+#print axioms C2Riemannian.exists_c2_torus_metric_not_c11_isometrically_immersible
+#print axioms C2Riemannian.exists_c2_torus_metric_not_c2_isometrically_immersible
+#print axioms C2Riemannian.exists_c2_torus_metric_not_isometrically_embeddable
