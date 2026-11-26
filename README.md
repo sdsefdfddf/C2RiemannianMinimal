@@ -1,5 +1,7 @@
 # 二维环面上的等距浸入反例
 
+**Preprint Draft (Qi Wang, Nov 2026):** [Qi_Wang_Torus_C2_Revised.pdf](./Qi_Wang_Torus_C2_Revised.pdf)
+
 [Lean 陈述与自然语言的逐项审核](REVIEW.md) · [定理 A](C2Riemannian/TorusCounterexample.lean) · [非存在推论](C2Riemannian/TorusImmersionCounterexample.lean) · [Lean 审计入口](Audit.lean)
 
 ```lean
